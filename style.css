@@ -11,6 +11,9 @@
     color: #0d3348;
     cursor: pointer;
 }
+.navbar-toggler{
+    border-width: 0px;
+}
 /* Hero */
 #hero-section{
     background-image: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.65)), url("https://wallpapercrafter.com/desktop/157402-programming-language-web-development-code-programming-computer-blue-blue-background-blurred-glowing.jpg");
