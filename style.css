@@ -1,29 +1,57 @@
 /* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+/* Nav */
+.blue-gradient{
+    background-image: linear-gradient(15deg, #0d3348 0%, #2a76b9 100%);
+}
+.navbar-nav a{
+    color: #c2e6fb;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.navbar-nav a:hover{
+    color: #0d3348;
+    cursor: pointer;
+}
+/* Hero */
 #hero-section{
-    background-image: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.65)), url("https://picsum.photos/3840/2160");
+    background-image: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.65)), url("https://wallpapercrafter.com/desktop/157402-programming-language-web-development-code-programming-computer-blue-blue-background-blurred-glowing.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover, cover;
     background-position: center, center;
     background-attachment: fixed;
-    height: 33vh;
-    padding: 300px;
+    height: 100vh;
+    width: 100%;
+    padding: 20%;
     display: flex;
     flex-direction: column;
+    text-shadow: 3px 3px 5px #68b8fd;
 }
 .hero-heading{
     text-align: center;
     position:absolute;
     align-self: center;
+    top: 20%;
+    bottom: 20%;
+    transform: translatez(-20%, -20%)
 }
 #hero-section h1{
     color: #ffffff;
     text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Archivo Narrow', sans-serif;
 }
-#hero-section h2{
-    color:#8d8d8d;
+#hero-section p{
+    color:#70abca;
+    font-size: 18px;
+    font-family: 'Archivo Narrow', sans-serif;
 }
-#kitten_img{
+#mig_img{
     border-radius: 100px;
     background-position: center;
     border-style: solid;
+    border-width: 4px;
+    border-color: #70abca;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
 }

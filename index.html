@@ -17,24 +17,47 @@
 			https://icons.getbootstrap.com/
 			(Remember, the CDN link is towards the bottom of the page!)
 		-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <!-- Custom styles (these can extend the default Bootstrap styles) -->
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
   </head>
 
   <body>
 
   <!-- TODO: Paste Navbar code and customize links -->  
-
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm py-3 fixed-top navbar-dark blue-gradient">
+    <div class="container">
+      <a href="#home" class="navbar-brand">
+        <img src="assets/logo.png" alt="MigCastro Logo" height="25">
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav-collapse" class="collapse navbar-collapse">
+        <nav class="navbar-nav ms-auto">
+          <a href="#mission" class="nav-link">Mission</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#inpiration" class="nav-link">Inspiration</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </nav>
   <!-- Hero section -->
+  <header id="home">
 	<section id="hero-section">
     <div class="hero-heading">
-      <img src="https://placekitten.com/200/200" alt="An image of a kitten" id="kitten_img">
+      <img src="assets/mig.jpeg" alt="An image of Miguel" id="mig_img">
       <h1>Miguel Castro</h1>
-      <h2>Software Engineer</h2>
+      <p>Software Engineer</p>
     </div>
 	</section>
-  
+</header>
 	<!-- Mission/Meet-me section -->
   <section id="mission-section">
 
