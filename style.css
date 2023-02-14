@@ -1,7 +1,6 @@
 /* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
 body{
     font-family: 'Archivo Narrow', sans-serif;
-    
 }
 /* Nav */
 .blue-gradient{
@@ -36,9 +35,9 @@ body{
     text-align: center;
     position:absolute;
     align-self: center;
-    top: 20%;
-    bottom: 20%;
-    transform: translatez(-20%, -20%)
+    top: 25%;
+    bottom: 25%;
+    transform: translatez(-25%, -25%)
 }
 #hero-section h1{
     color: #ffffff;
@@ -63,20 +62,20 @@ body{
     object-position: top;
 }
 
-section{
-    padding: 55px 0;
+#mission, #skills, #inspiration, #contact{
+    padding: 45px 0;
 }
 .carousel-item img{
-    background-image: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.65));
-    background-size: cover;
-    background-position: center;
+    object-fit: contain;
+    height: 50vh;
+    overflow: hidden;
 }
 #mission-target,
 #skills-target,
 #inspiration-target,
 #contact-target{
     position: relative;
-    top: -70px;
+    top: -100px;
 }
 .scroll-top .navbar{
     background-color: transparent !important;
