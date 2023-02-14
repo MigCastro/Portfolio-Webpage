@@ -66,9 +66,6 @@ body{
     padding: 45px 0;
 }
 .carousel-item img{
-    object-fit: contain;
-    height: 50vh;
-    overflow: hidden;
 }
 #mission-target,
 #skills-target,
