@@ -1,7 +1,6 @@
 /* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
 body{
     font-family: 'Archivo Narrow', sans-serif;
-    overflow: hidden;
 }
 /* Nav */
 .blue-gradient{
@@ -102,25 +101,32 @@ body{
 .my-5{
     margin: 15px !important;
 }
+.row{
+    overflow: hidden !important;
+}
+#skill-icon{
+    padding: 10px;
+}
+#skill-icon p{
+    padding: 10px 50px 25px 50px;
+}
 i{
-    font-size: 15vh;
+    font-size: 10vh;
 }
 .colored{
     color: #2a76b9 !important;
+    padding: 10px !important;
 }
 .colored:hover{
     color:#0d3348 !important;
 }
-#skill-icon{
-    padding: 10px;
+#transform-icon{
     text-align: center !important;
     transition: .3s ease
 }
-#skill-icon:hover{
+#transform-icon:hover{
     transform: scale(1.3);
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
-}
-#skill-icon p{
-    padding: 45px;
+    padding: 10px;
 }
