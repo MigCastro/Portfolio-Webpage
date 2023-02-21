@@ -67,6 +67,11 @@ body{
     padding-bottom: 65px;
     background-color: #0d3348;
 }
+h2{
+    font-weight: bolder;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+}
 #mission h2, #mission p, #inspiration h2{
     color: #c2e6fb;
 }
@@ -135,7 +140,8 @@ h5:hover{
     padding: 10px;
 }
 #skill-icon p{
-    padding: 10px 70px 25px 70px;
+    padding: 15px;
+    margin: 25px 95px;
 }
 #contact-icon{
     padding: 30px;
