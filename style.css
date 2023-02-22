@@ -172,3 +172,9 @@ i{
 .p-4{
     padding: 40px 0 !important;
 }
+#footer-p{
+    color:#c2e6fb;
+}
+#footer-p:hover{
+    color:#0d3348;
+}
