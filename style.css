@@ -61,7 +61,7 @@ body{
     object-fit: cover;
     object-position: center;
 }
-#mission, #skills, #inspiration, #contact{
+#mission, #skills, #inspiration, #contact, #projects{
     padding: 45px 0;
     padding-top: 55px;
     padding-bottom: 65px;
@@ -72,13 +72,13 @@ h2{
     font-family: 'Kanit', sans-serif;
     letter-spacing: 1px;
 }
-#mission h2, #mission p, #inspiration h2{
+#mission h2, #mission p, #projects h2, #contact{
     color: #c2e6fb;
 }
-#skills, #contact{
+#skills, #inspiration{
     background-color: #def3ff;
 }
-#skills h2, #skills p{
+#skills h2, #skills p, #inspiration h2{
     color: #0d3348;
 }
 #mission-content{
@@ -99,7 +99,9 @@ h2{
     right:0;
     background:rgba(0,0,0,0.5);
 }
-
+#projects-carousel:after{
+    background:rgba(0,0,0,0.2);
+}
 .carousel-caption{
     z-index: 1;
 }
@@ -118,7 +120,7 @@ h5:hover{
 #mission-target,
 #skills-target,
 #inspiration-target,
-#contact-target{
+#contact-target, #projects-target{
     position: relative;
     top: -78px;
 }
@@ -155,6 +157,12 @@ i{
 }
 .colored:hover{
     color:#0d3348 !important;
+}
+.colored-light{
+    color:  #c2e6fb;
+}
+.colored-light:hover{
+    color:  #2a76b9;
 }
 #transform-icon{
     text-align: center !important;
