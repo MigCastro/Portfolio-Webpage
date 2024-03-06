@@ -1,0 +1,186 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+/* Nav */
+.blue-gradient{
+    /* background-image: linear-gradient(15deg, #0d3348 0%, #2a76b9 100%); */
+    background-color: currentColor;
+}
+.navbar-nav a{
+    color: #eeeeee;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.navbar-nav a:hover{
+    color: #0d3348;
+    cursor: pointer;
+}
+.navbar-toggler{
+    border-width: 0px;
+}
+/* Hero */
+#hero-section{
+    background-image: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.65)), url("https://i.pinimg.com/originals/23/55/cd/2355cd02b42ca6ea2dedf59c5af36e67.jpg");
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+    background-position: center, center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.hero-heading{
+    text-align: center;
+    position:absolute;
+    align-self: center;
+    top: 25%;
+    bottom: 25%;
+    transform: translatez(-25%, -25%)
+}
+#hero-section h1{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+#hero-section p{
+    color:#949494;
+    font-size: 18px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+#mig_img{
+    border-radius: 100px;
+    background-position: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #949494;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+#mission, #skills, #inspiration, #contact, #projects, #blog{
+    padding: 45px 0;
+    padding-top: 55px;
+    padding-bottom: 65px;
+    background-color: #0d3348;
+}
+h2{
+    font-weight: bolder;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+}
+#mission h2, #mission p, #projects h2, #contact{
+    color: #c2e6fb;
+}
+#skills, #inspiration, #blog{
+    background-color: #def3ff;
+}
+#skills h2, #skills p, #inspiration h2, #blog h2{
+    color: #0d3348;
+}
+#mission-content{
+    padding: 15px;
+}
+.carousel-item img, .carousel-item a img {
+    object-fit: cover;
+    object-position: center;
+    height:75vh;
+    overflow: hidden !important;
+}
+.carousel-item:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.5);
+}
+#projects-carousel:after{
+    background:rgba(0,0,0,0.2);
+}
+.carousel-caption{
+    z-index: 1;
+}
+a{
+    text-decoration: none !important;
+}
+h5{
+    color:#def3ff;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 200px;
+}
+h5:hover{
+    color: #68b8fd;
+}
+#mission-target,
+#skills-target,
+#inspiration-target,
+#contact-target, #projects-target, #blog-target{
+    position: relative;
+    top: -78px;
+}
+.scroll-top .navbar{
+    background-color: transparent !important;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    margin:15px
+}
+.my-5{
+    margin: 35px !important;
+}
+.row{
+    overflow: hidden !important;
+    justify-content: center;
+}
+#skill-icon{
+    padding: 10px;
+}
+#skill-icon p{
+    padding: 15px;
+    margin: 25px 50px;
+}
+#contact-icon{
+    padding: 30px;
+}
+i{
+    font-size: 10vh;
+}
+.colored{
+    color: #2a76b9 !important;
+    padding: 10px !important;
+}
+.colored:hover{
+    color:#0d3348 !important;
+}
+.colored-light{
+    color:  #c2e6fb;
+}
+.colored-light:hover{
+    color:  #2a76b9;
+}
+#transform-icon{
+    text-align: center !important;
+    transition: .3s ease
+}
+#transform-icon:hover{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    padding: 10px;
+}
+.p-4{
+    padding: 40px 0 !important;
+}
+#footer-p{
+    color:#c2e6fb;
+}
+#footer-p:hover{
+    color:#0d3348;
+}
